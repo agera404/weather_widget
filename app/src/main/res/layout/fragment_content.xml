@@ -10,6 +10,7 @@
     android:orientation="vertical"
     >
     <TextView
+        android:id="@+id/cityTv"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Город"
@@ -23,6 +24,7 @@
         android:gravity="center"
         android:layout_margin="50dp">
         <TextView
+            android:id="@+id/temperatureTv"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="-25"
@@ -58,6 +60,7 @@
             android:text="Послезавтра: "
             android:textSize="27dp" />
         <Button
+            android:id="@+id/forecast5dBttn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Прогноз на 5 дней"
